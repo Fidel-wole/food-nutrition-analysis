@@ -14,7 +14,7 @@ def clean_data(df):
     print("Columns in DataFrame:", df.columns)
     
     # Use the correct column name
-    column_to_convert = 'Mean'  # Change this to the actual column you want to process
+    column_to_convert = 'Mean'  
 
     if column_to_convert in df.columns:
         # Convert the column to integer

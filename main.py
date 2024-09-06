@@ -20,8 +20,8 @@ def main():
     df_cleaned = pd.read_csv(processed_data_path)
     
     # Feature selection
-    X = df_cleaned[['feature1', 'feature2', 'feature3']]
-    y = df_cleaned['target_column']
+    X = df_cleaned[['Mean', 'Median']]
+    y = df_cleaned['Group']
     
     # Train the model
     model = train_model(X, y)
